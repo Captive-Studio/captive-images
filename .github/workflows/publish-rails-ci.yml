@@ -7,6 +7,8 @@ on:
     paths:
       - images/rails-ci/Dockerfile
       - images/rails-ci/Aptfile
+      - images/rails-ci/Gemfile
+      - images/rails-ci/Gemfile.lock
       - .github/workflows/publish-rails-ci.yml
   workflow_dispatch:
 
