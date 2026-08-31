@@ -1,4 +1,4 @@
-FROM ghcr.io/falcondev-oss/actions-runner:2.336.0@sha256:b0cbd599b4124962a91930f85b0061adc5a5aaf874221d29741411fc661a259b
+FROM ghcr.io/falcondev-oss/actions-runner:2.337.0@sha256:32a63e960641cde7df61ee56e18576d9781d3980f3e6461d379308b88ec5c036
 
 COPY images/actions-runner/Aptfile /tmp/Aptfile
 
